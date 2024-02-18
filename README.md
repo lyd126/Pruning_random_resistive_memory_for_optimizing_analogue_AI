@@ -1,0 +1,2 @@
+# Pruning_random_resistive_memory_for_optimizing_analogue_AI
+Code of the article: Pruning_random_resistive_memory_for_optimizing_analogue_AI
