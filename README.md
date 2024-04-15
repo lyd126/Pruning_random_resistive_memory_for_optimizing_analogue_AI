@@ -44,8 +44,11 @@ CUDA version:  12.1
 
 
 ### Code information 
-In this code, we have two main components: the "xxx_software_TO" part and the "xxx_hardware_TO" part. The "xxx_software_TO" part of the code is designed to run on a traditional CPU+GPU architecture, providing software baseline results for our topology optimization (TO) method. This section aims to establish a solid foundation for comparison with the hardware implementation. Next, we have the "xxx_hardware_TO" part of the code, which simulates the implementation process of the Processing-in-Memory (PIM) system in a Python environment. This allows you to easily replicate our experimental results without accessing the actual hardware PIM platform. By utilizing the conductance readout data (RRAM_hardware_weight_1000(1200).pt) that we have extracted from a 256K RRAM chip, you can effectively recreate our experiments and observe the performance of the PIM system in action.
-
+In this code, we have two main components: the "xxx_software_TO" part and the "xxx_hardware_TO" part. The "xxx_software_TO" part of the code is designed to run on a traditional CPU+GPU architecture, providing software baseline results for our topology optimization (TO) method. This section aims to establish a solid foundation for comparison with the hardware implementation. Next, we have the "xxx_hardware_TO" part of the code, which simulates the implementation process of the Processing-in-Memory (PIM) system in a Python environment. This allows you to easily replicate our experimental results without accessing the actual hardware PIM platform. By utilizing the conductance readout data that we have extracted from a 256K RRAM chip, you can effectively recreate our experiments and observe the performance of the PIM system in action. You can download the hardware weights from the following link:
+```
+https://connecthkuhk-my.sharepoint.com/:u:/g/personal/songqi27_connect_hku_hk/EUvMGLv225JOrxiP8Bpnwa8BdCyVHWharOS2kUZOWfm76A?e=NRRv9G
+```
+After downloading the hardware weights, you need to put them in the same directory as the code, i.e. xxxxx/CNN_FashionMNIST_TO/CNN_RRAM_hardware_weight.pt.
 
 
 ### RRAM PIM chip information 
