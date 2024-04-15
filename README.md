@@ -1,6 +1,3 @@
-105.263 mm
-113.98 mm
-
 ## Pruning random resistive memory for optimizing analog AI
 
 
